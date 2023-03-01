@@ -50,7 +50,7 @@ if process:
     graph = nx.relabel_nodes(graph, MAPPING, copy=True)
 
     fig, ax = plt.subplots()
-    nx.draw(graph, font_size = 5, node_size = 1800, font_color = 'black', with_labels=True)
+    nx.draw(graph, font_size = 5, node_size = 1800, font_color = 'white', with_labels=True)
     st.pyplot(fig)
 
 st.text(
