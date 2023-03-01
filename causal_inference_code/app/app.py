@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import networkx as nx
 from castle.algorithms import PC, Notears
-from pyvis import network as net
-import streamlit.components.v1 as components
 import matplotlib.pyplot as plt
 
 st.title('Simple Causal Discovery')
